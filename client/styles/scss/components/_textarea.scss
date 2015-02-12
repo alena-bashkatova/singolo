@@ -1,6 +1,6 @@
 textarea {
   resize: none;
-  width: 580px;
+  width: 620px;
   height: 200px;
   margin-top: 16px;
   padding: 10px;
@@ -8,6 +8,7 @@ textarea {
   background-color: #ca4549;
   color: #fff;
   @include border-radius(5px);
+  @include box-sizing(border-box);
   @include placeholder('normal 12px "Lato", sans-serif', #f48c8f);
 
   &:focus {
