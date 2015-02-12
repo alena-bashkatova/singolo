@@ -1,0 +1,16 @@
+textarea {
+  resize: none;
+  width: 580px;
+  height: 200px;
+  margin-top: 16px;
+  padding: 10px;
+  border: none;
+  background-color: #ca4549;
+  color: #fff;
+  @include border-radius(5px);
+  @include placeholder('normal 12px "Lato", sans-serif', #f48c8f);
+
+  &:focus {
+    background-color: #e97478;
+  }
+}
