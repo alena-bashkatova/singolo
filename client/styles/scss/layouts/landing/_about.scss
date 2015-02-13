@@ -19,17 +19,21 @@
         width: 300px;
 
         h3 {
+          margin-top: 15px;
           font: bold 18px "Lato", sans-serif;
-          line-height: 2.5;
           color: #666d89;
         }
 
         p {
-          margin-bottom: 20px;
+          margin-top: 10px;
           font: normal 11px "Lato", sans-serif;
           line-height: 1.8;
           text-align: justify;
           color: #767e9e;
+        }
+
+        ul {
+          margin-top: 25px;
         }
       }
     }
