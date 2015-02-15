@@ -23,27 +23,25 @@
         height: 18px;
         background: url(../../images/social/social.png);
     }
-  }
-
-  .facebook {
-    a {
-      background-position: 0 0;
+    &:first-child{
+      a {
+        background-position: 0 0;
+      }
     }
-  }
-
-  .google {
-    a {
-      background-position: -18px 0;
+    &:nth-child(2) {
+       a {
+         background-position: -18px 0;
+       }
+     }
+    &:nth-child(3) {
+      a {
+        background-position: -18px -18px;
+      }
     }
-  }
-  .twitter {
-    a {
-      background-position: -18px -18px;
-    }
-  }
-  .linkedin {
-    a {
-      background-position: 0 -18px;
+    &:last-child {
+      a {
+        background-position: 0 -18px;
+      }
     }
   }
 }
