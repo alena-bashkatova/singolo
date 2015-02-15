@@ -56,27 +56,27 @@
               background: url(../../images/contacts/link.png);
               content: '';
             }
+            &:first-child {
+              &::before {
+                background-position: 0 0;
+              }
+            }
+            &:nth-child(2) {
+              &::before {
+                background-position: 0 -13px;
+              }
+            }
+            &:last-child {
+              &::before {
+                background-position: 0 -26px;
+              }
+            }
 
             a {
               font: normal 12px "Lato", sans-serif;
               line-height: 2;
               text-decoration: none;
               color: #f0d8d9;
-            }
-          }
-          .location {
-            &::before {
-              background-position: 0 0;
-            }
-          }
-          .phone {
-            &::before {
-              background-position: 0 -13px;
-            }
-          }
-          .mail {
-            &::before {
-              background-position: 0 -26px;
             }
           }
         }
